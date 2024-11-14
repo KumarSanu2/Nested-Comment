@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Comment</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-pink-100 to-blue-300 h-8 flex items-center justify-center min-h-screen">
+    <div class="w-full max-w-2xl bg-indigo-200 rounded-lg shadow-lg p-6">
+        <h2 class="text-2xl font-semibold text-gray-800 mb-4",>Start adding Comments</h2>
+        
+        <div id="comments-container" class="space-y-4"></div>
+
+        <div class="mt-4">
+            <textarea id="comment-input" placeholder="Add a main comment..." class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 transition"></textarea>
+            <button onclick="addComment()" class="w-full mt-2 bg-blue-500 text-white font-semibold py-2 rounded-lg hover:bg-blue-600 transition">Post Comment</button>
+            <button onclick="resetComments()" class="w-full mt-2 bg-red-500 text-white font-semibold py-2 rounded-lg hover:bg-red-600 transition">Reset Comments</button>
+        </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
